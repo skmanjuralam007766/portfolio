@@ -40,7 +40,7 @@ const Projects = () => {
       ],
     },
     {
-      title: 'AI based Exam proctoring system',
+      title: 'AI-based Exam Proctoring System',
       icon: BarChart3,
       color: 'from-blue-400 to-cyan-600',
       description: 'Real-time exam monitoring with AI to ensure integrity',
@@ -55,13 +55,13 @@ const Projects = () => {
       ],
     },
     {
-      title: 'Road accident detection and Turrist safety system',
+      title: 'Road accident detection and Tourist safety system',
       icon: Shield,
       color: 'from-red-400 to-pink-600',
       description: 'Real-time road accident detection and tourist safety application',
       longDescription:
         'A mobile application designed to enhance road safety by detecting accidents in real-time using AI and sensor data. The app automatically alerts emergency services and designated contacts, providing location details to ensure prompt assistance.',
-      tech: ['React', 'tensorflow', 'openCV', 'pytrch', 'numpy', 'YOlOv5'],
+      tech: ['React', 'Tensorflow', 'OpenCV', 'Pytorch', 'Numpy', 'YOlOv5'],
       features: [
         'Real-time accident detection using AI',
         'Automatic emergency alerts with GPS location',

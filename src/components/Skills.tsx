@@ -53,7 +53,7 @@ const Skills = () => {
       description: 'Versatile Programming',
     },
     {
-      name: 'Python(libreary and frameworks)',
+      name: 'Python(library and frameworks)',
       icon: Code2,
       color: 'from-yellow-400 to-blue-500',
       level: 100,
