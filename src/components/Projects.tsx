@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { ExternalLink, Github, Dumbbell, BarChart3, Shield, Globe, X } from 'lucide-react';
+import { ExternalLink, Dumbbell, BarChart3, Shield, Globe, X } from 'lucide-react';
 
 const Projects = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -153,10 +153,10 @@ const Projects = () => {
                         <ExternalLink className="w-5 h-5" />
                         <span>View More</span>
                       </button>
-                      <button className="flex items-center gap-2 text-violet-400 hover:text-violet-300 transition-colors">
+                      {/* <button className="flex items-center gap-2 text-violet-400 hover:text-violet-300 transition-colors">
                         <Github className="w-5 h-5" />
                         <span>Code</span>
-                      </button>
+                      </button> */}
                     </div>
                   </div>
                 </div>
@@ -239,10 +239,10 @@ const Projects = () => {
                       <ExternalLink className="w-5 h-5" />
                       <span>Live Demo</span>
                     </button>
-                    <button className="flex-1 flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-violet-500 to-purple-600 rounded-lg text-white font-semibold hover:shadow-lg hover:shadow-violet-500/50 transition-all">
+                    {/* <button className="flex-1 flex items-center justify-center gap-2 px-6 py-3 bg-gradient-to-r from-violet-500 to-purple-600 rounded-lg text-white font-semibold hover:shadow-lg hover:shadow-violet-500/50 transition-all">
                       <Github className="w-5 h-5" />
                       <span>View Code</span>
-                    </button>
+                    </button> */}
                   </div>
                 </>
               );
